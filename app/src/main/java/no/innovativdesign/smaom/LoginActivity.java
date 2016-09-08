@@ -39,7 +39,6 @@ public class LoginActivity extends AppCompatActivity
         _loginButton = (Button)findViewById(R.id.btn_login);
 
         ButterKnife.bind(this);
-
         _loginButton.setOnClickListener(new View.OnClickListener()
         {
 
